@@ -1,7 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javad Abazari - Product Manager & Data Scientist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #61dafb;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #282c34;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #61dafb;
+            display: inline-block;
+        }
+        .portfolio-item, .skill-item, .blog-post {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #61dafb;
+            color: #282c34;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello, I am Javad</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<header>
+    <h1>Javad Abazari</h1>
+    <p>Product Manager & Data Scientist in Algorithmic Trading</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#skills">Skills</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+    <h2 class="section-title">Home</h2>
+    <p>Welcome to my personal webpage. Here you can learn more about my professional journey, explore my portfolio, check out my skills, read my blog, and get in touch with me.</p>
+</div>
+
+<div class="container" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I'm Javad Abazari, a product manager and data scientist specializing in algorithmic trading. With a passion for technology and innovation, I have been instrumental in developing cutting-edge trading algorithms that deliver high performance and reliability.</p>
+</div>
+
+<div class="container" id="portfolio">
+    <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio-item">
+        <h3>Algorithmic Trading System</h3>
+        <p>Developed a high-frequency trading system that leverages machine learning for predictive analytics and market trend analysis.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Portfolio Management Tool</h3>
+        <p>Created a comprehensive tool for portfolio management that integrates real-time data feeds and advanced analytics to assist traders in decision-making.</p>
+    </div>
+</div>
+
+<div class="container" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-item">
+        <h3>Product Management</h3>
+        <p>Expertise in product lifecycle management, from ideation to deployment and continuous improvement.</p>
+    </div>
+    <div class="skill-item">
+        <h3>Data Science</h3>
+        <p>Proficient in data analysis, machine learning, and statistical modeling using tools such as Python, R, and SQL.</p>
+    </div>
+    <div class="skill-item">
+        <h3>Algorithmic Trading</h3>
+        <p>Specialized knowledge in developing and optimizing trading algorithms for various financial markets.</p>
+    </div>
+</div>
+
+<div class="container" id="blog">
+    <h2 class="section-title">Blog</h2>
+    <div class="blog-post">
+        <h3>Trends in Algorithmic Trading</h3>
+        <p>Exploring the latest trends and technologies shaping the future of algorithmic trading.</p>
+    </div>
+    <div class="blog-post">
+        <h3>Machine Learning in Finance</h3>
+        <p>An in-depth look at how machine learning is transforming the financial industry and the challenges involved.</p>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Javad Abazari. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
